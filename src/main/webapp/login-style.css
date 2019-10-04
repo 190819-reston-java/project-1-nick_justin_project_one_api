@@ -1,0 +1,67 @@
+html {
+    height: 100%;
+}
+
+body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100%;
+    margin: 0;
+}
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    margin-top: 7%;
+    padding: 5% 12.5% 5% 12.5%;
+    text-align: center;
+    border-radius: 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.login-container p {
+    margin-bottom: 2%;
+    font-size: 1.25em;
+}
+
+.login-container h3 {
+    font-size: 2em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.login-container input:not([type=submit]) {
+    width: 280px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    border-color: lightgray;
+}
+
+.login-container input[type=submit] {
+    background-color: rgb(241, 146, 2);
+    border-color: rgb(241, 146, 2);
+    color: white;
+    font-size: 1.25em;
+    padding: 2% 1% 2% 1%;
+    width: 280px;
+    margin: auto;
+    border-radius: 5px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.login-container input[type=submit]:hover {
+    background-color: rgb(250, 181, 77);
+    border: 1px solid rgb(250, 181, 77);
+}

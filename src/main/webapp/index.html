@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Source+Sans+Pro&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index-style.css" type="text/css">
+    <title>Revimsys</title>
+</head>
+<body>
+    <div class="banner-container" style="background-image: url('images/office.jpg');">
+        <h1>Revimsys</h1>
+        <div class="button-container">
+            <button id="manager-login">Login as Manager</button>
+            <button id="employee-login">Login as Employee</button>
+        </div>
+    </div>
+    <br><br>
+    <div class="content-container">
+        <div>
+            <div class="info-container">
+                <p>Submit your reimbursement request here</p>
+                <button>Get Started</button>
+            </div>
+            <div class="img-container">
+                <img src="images/submit-requests.jpg">
+            </div>
+        </div>
+        <hr>
+        <div>
+            <div class="img-container">
+                <img src="images/upload-receipts.jpg">
+            </div>
+            <div class="info-container">
+                <p>Uploading your receipts is now even easier</p>
+                <button>Get Started</button>
+            </div>
+            
+        </div>
+        <hr>
+        <div>
+            <div class="info-container">
+                <p>View all current employees</p>
+                <button>Get Started</button>
+            </div>
+            <div class="img-container">
+                <img src="images/view-employees.jpg">
+            </div>
+        </div>
+        <hr>
+        <div>
+            <div class="img-container">
+                <img src="images/approve-requests.jpg">
+            </div>
+            <div class="info-container">
+                <p>Approve or deny requests with a click of a button</p>
+                <button>Get Started</button>
+            </div>
+        
+        </div>
+    </div>
+    <br><br>
+    <div id="copyright-footer">
+        <p>© 2019 Revimsys LLC.</p>
+    </div>
+    <br>
+
+    <script>
+        let allButtons = document.querySelectorAll("button");
+
+        allButtons[0].addEventListener("click", () => {
+                document.location.href = 'manager-login.html';
+        });
+
+        allButtons[1].addEventListener("click", ()=>{
+            document.location.href = 'employee-login.html';
+        });
+
+        allButtons[2].addEventListener("click", () => {
+                document.location.href = 'employee-login.html';
+        });
+
+        allButtons[3].addEventListener("click", () => {
+                document.location.href = 'employee-login.html';
+        });
+
+        allButtons[4].addEventListener("click", () => {
+                document.location.href = 'manager-login.html';
+        });
+
+        allButtons[5].addEventListener("click", () => {
+                document.location.href = 'manager-login.html';
+        });
+    </script>
+</body>
+</html>
