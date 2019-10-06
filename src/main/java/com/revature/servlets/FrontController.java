@@ -260,10 +260,10 @@ public class FrontController extends HttpServlet {
 //		File receipt = new File("");
 //		FileUtils.copyInputStreamToFile(fileContent, receipt);
 		
-//		BasicAWSCredentials credentials = new BasicAWSCredentials("AKIAJ7T6LHBA43HU62JA", "UuGMg1drigoL2P9W1ZIylRrG/5PaG7Gm/Fk1a5nT");
+//		BasicAWSCredentials credentials = new BasicAWSCredentials("SCREW YOU JOHN");
 //		Amazon s3client = new AmazonS3Client(credentials);
 		
-//		AWSCredentials credentials = new BasicAWSCredentials("AKIAJ7T6LHBA43HU62JA", "UuGMg1drigoL2P9W1ZIylRrG/5PaG7Gm/Fk1a5nT");
+//		AWSCredentials credentials = new BasicAWSCredentials("JOHN SUCKS");
 //		AmazonS3 s3client = AmazonS3ClientBuilder
 //				.standard()
 //				.withCredentials(new AWSStaticCredentialsProvider(credentials))
